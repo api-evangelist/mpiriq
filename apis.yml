@@ -1,9 +1,28 @@
 aid: mpiriq
 name: MPIRIQ
-description: 'MPIRIQ is a company surfaced as a portfolio company of hv-capital, speedinvest and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  MPIRIQ (MPiriQ Science Technologies GmbH) is a Munich-based healthcare software
+  company that automates clinical documentation for medical practices and study
+  centers. Its AI platform structures patient data directly inside existing
+  EMR/PMS systems, runs quality and billing validation checks in the background,
+  and connects real-world care data to clinical research through decentralized,
+  GDPR-compliant pseudonymization. The platform helps practices participate in
+  clinical trials via automated indication screening and patient recruitment,
+  giving physicians time back while opening a research revenue stream. Founded in
+  2024 and backed by HV Capital and Speedinvest.
 url: https://raw.githubusercontent.com/api-evangelist/mpiriq/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/HDjClRrRiKawqcSnQrROYKWzpD0.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,15 +30,47 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: MPiriQ Science Technologies GmbH
+x-headquarters: Munich, Germany
+x-founded: '2024'
+x-vat: DE369198532
+x-register: HRB 293894 (Amtsgericht München)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Health Tech
+- Clinical Research
+- EMR Integration
+- Medical Documentation
+- GDPR
+- Artificial Intelligence
+- Germany
 apis: []
+common:
+- type: DomainSecurity
+  url: security/mpiriq-domain-security.yml
+- type: WellKnown
+  url: well-known/mpiriq-well-known.yml
+- type: Website
+  url: https://www.mpiriq.de/
+- type: About
+  url: https://www.mpiriq.de/about
+- type: Pricing
+  url: https://www.mpiriq.de/pricing
+- type: Support
+  url: https://www.mpiriq.de/contact
+- type: PrivacyPolicy
+  url: https://www.mpiriq.de/gdpr
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
