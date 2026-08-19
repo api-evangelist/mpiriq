@@ -35,7 +35,7 @@ x-headquarters: Munich, Germany
 x-founded: '2024'
 x-vat: DE369198532
 x-register: HRB 293894 (Amtsgericht München)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
