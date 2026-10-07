@@ -1,0 +1,64 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.mpiriq.de/pricing
+sources:
+- https://www.mpiriq.de/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: 'Prices effective from 1 August 2026; net excluding VAT. Discounts: quarterly 5%, annual 10% (15%
+  Research Premium), two-year prepayment 15%. Three-month money-back guarantee.'
+plan_count: 6
+currency: EUR
+plans:
+- name: Efficiency
+  price_text: 99 € per month
+  price: 99
+  currency: EUR
+  period: month
+  unit: practice
+  included_quota: LANR included 1; Minimum term 24 months
+  overage: Each additional LANR 49 € / month
+- name: Care Plus
+  price_text: 159 € per month
+  price: 159
+  currency: EUR
+  period: month
+  unit: practice
+  included_quota: LANR included 2; Minimum term 24 months
+  overage: Each additional LANR 89 € / month
+- name: Research Premium
+  price_text: 329 € per month
+  price: 329
+  currency: EUR
+  period: month
+  unit: per investigating physician
+  included_quota: LANR included 1; Minimum term 12 months
+  overage: Each additional LANR 229 € / month
+- name: Basic setup including training
+  price_text: 999 €
+  price: 999
+  currency: EUR
+  period: one-time
+  unit: setup
+  included_quota: Training
+- name: Early bird setup
+  price_text: 599 €
+  price: 599
+  currency: EUR
+  period: one-time
+  unit: setup
+  included_quota: when you sign within 14 days of your demo
+- name: Individual terms (From 6 LANR)
+  price_text: Get in touch
+  period: none
+  included_quota: For larger practices and MVZ
