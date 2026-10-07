@@ -61,6 +61,8 @@ tags:
 - Germany
 apis: []
 common:
+- type: Plans
+  url: plans/mpiriq-plans-pricing.yml
 - type: DomainSecurity
   url: security/mpiriq-domain-security.yml
 - type: WellKnown
